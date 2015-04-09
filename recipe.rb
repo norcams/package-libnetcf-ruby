@@ -1,5 +1,5 @@
 class LibnetcfRuby < FPM::Cookery::Recipe
-  description ''
+  description 'Ruby bindings for NetCF including dependencies'
 
   name     'libnetcf-ruby'
   version  '0.0.2'
