@@ -20,8 +20,8 @@ class LibnetcfRuby < FPM::Cookery::Recipe
   end
 
   def install
-    safesystem "gem install --ignore-dependencies --no-rdoc --no-ri --bindir #{destdir}/usr/local/bin --installdir=#{destdir}/usr/local/share/gems equivalent-xml --version 0.5.1"
-    safesystem "gem install --ignore-dependencies --no-rdoc --no-ri --bindir #{destdir}/usr/local/bin --installdir=#{destdir}/usr/local/share/gems ruby-netcf-#{version}.gem"
+    safesystem "gem install --ignore-dependencies --no-rdoc --no-ri --bindir #{destdir}/usr/local/bin --install-dir=#{destdir}/usr/local/share/gems equivalent-xml --version 0.5.1"
+    safesystem "gem install --ignore-dependencies --no-rdoc --no-ri --bindir #{destdir}/usr/local/bin --install-dir=#{destdir}/usr/local/share/gems ruby-netcf-#{version}.gem"
   end
 end
 
