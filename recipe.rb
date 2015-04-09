@@ -1,4 +1,4 @@
-class LibnetcfRuby < FPM::Cookery::RubyGemRecipe
+class LibnetcfRuby < FPM::Cookery::Recipe
   description ''
 
   name     'libnetcf-ruby'
