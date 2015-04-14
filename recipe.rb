@@ -13,7 +13,7 @@ class LibnetcfRuby < FPM::Cookery::Recipe
 
   source 'http://github.com/norcams/netcf-ruby',
     :with => 'git',
-    :tag => "#{version}-norcams1"
+    :tag => "#{version}-norcams2"
 
   def build
     safesystem 'gem build ruby-netcf.gemspec'
