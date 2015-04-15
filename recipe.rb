@@ -8,7 +8,7 @@ class LibnetcfRuby < FPM::Cookery::Recipe
   homepage 'https://github.com/raphink/netcf-ruby'
   license  'Apache'
 
-  depends 'rubygem-nokogiri'
+  depends 'rubygem-nokogiri', 'netcf-libs'
   build_depends 'rubygem-bundler', 'ruby-devel', 'netcf-devel', 'rpm-build'
 
   source 'http://github.com/norcams/netcf-ruby',
